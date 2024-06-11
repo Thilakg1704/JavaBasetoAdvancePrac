@@ -32,7 +32,7 @@ public class ConditionalStatTypeofWebsite {
 		 
 		 if(ext.equals("com")) {
 			 	System.out.println("Commercial");
-		 }
+		 }	
 		 else if(ext.equals("org")) {
 			 System.out.println("Organisation");
 		 }
