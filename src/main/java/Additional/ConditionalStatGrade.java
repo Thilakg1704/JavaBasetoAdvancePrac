@@ -13,6 +13,7 @@ public class ConditionalStatGrade {
 		
 		int total = m1+ m2+ m3;
 		System.out.println("The total marks is: "+total);
+		
 		int average = total/3;
 		System.out.println("The average mark is: "+average);
 		if(average >=70) {
