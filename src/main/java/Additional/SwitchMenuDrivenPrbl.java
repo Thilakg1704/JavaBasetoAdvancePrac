@@ -14,16 +14,16 @@ public class SwitchMenuDrivenPrbl {
 				+ "1.ADD\n2.SUB\n3.DIV\n4.MULTIPLY");
 		scan.nextLine();
 		System.out.println("Enter anyone of the  operation as per above listed");
-		String option= scan.nextLine();
+		int option= scan.nextInt();
 		switch(option) 
 		{
-		case "ADD":System.out.println("The sum of two numbers is: "+ (number1+number2));
+		case 1:System.out.println("The sum of two numbers is: "+ (number1+number2));
 		break;
-		case "SUB":System.out.println("The sum of two numbers is: "+ (number1-number2));
+		case 2:System.out.println("The sum of two numbers is: "+ (number1-number2));
 		break;
-		case "DIV":System.out.println("The sum of two numbers is: "+ (number1/number2));
+		case 3:System.out.println("The sum of two numbers is: "+ (number1/number2));
 		break;
-		case "MULTIPLY":System.out.println("The sum of two numbers is: "+ (number1*number2));
+		case 4:System.out.println("The sum of two numbers is: "+ (number1*number2));
 		break;
 		default: System.out.println("Enter the values and opeartions Correctly");
 		}

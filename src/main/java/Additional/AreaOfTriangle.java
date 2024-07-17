@@ -10,7 +10,7 @@ public class AreaOfTriangle {
 		System.out.println("To find the Area of the Triangle "
 				+ "we need some of the values");
 		System.out.println("Enter the Value of Base "
-				+ "if you doesnt have the value enter n");
+				+ "if you doesn't have the value enter n");
 		float base = scan.nextFloat();
 		if(base == n) {
 			System.out.println("Enter the next value");
@@ -33,15 +33,16 @@ public class AreaOfTriangle {
 		
 		float base, height, area;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the vakue of base and Height ");
+		System.out.println("Enter the vaLue of base and Height ");
 		
 		base = sc.nextFloat();
 		height = sc.nextFloat();
-		
-		area = base * height/2;
+	
+		area = (base * height)/2;
 		System.out.println("Area of Triangle is : "+  area);
+		sc.close();
 		
-		
+			
 	}
 
 }
