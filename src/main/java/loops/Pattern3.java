@@ -13,7 +13,7 @@ public class Pattern3 {
 			for(int j=1;j<=10-i+1;j++) {
 				System.out.print("*");
 			}
-			System.out.println();
+			System.out.println(); 
 		}
 	}
 

@@ -10,8 +10,10 @@ public class Methodsample {
 	}
 	public static void main(String args[]) {
 		 int a =10; int b =15;
+		 int c=max(a, b);
+		 System.out.println(c);
 		 
-		 System.out.println(max(a, b));
+//		 System.out.println(max(a, b));
 		
 		
 	}
